@@ -23,8 +23,8 @@ func (s *SeniorBuilder) SetPosition() {
 	s.position = "Senior"
 }
 
-func (s *SeniorBuilder) SetSalary(salary int) {
-	s.salary = salary
+func (s *SeniorBuilder) SetSalary() {
+	s.salary = 200000
 }
 
 func (j *SeniorBuilder) GetEmployee() Employee {

@@ -23,8 +23,8 @@ func (m *MiddleBuilder) SetPosition() {
 	m.position = "Middle"
 }
 
-func (m *MiddleBuilder) SetSalary(salary int) {
-	m.salary = salary
+func (m *MiddleBuilder) SetSalary() {
+	m.salary = 130000
 }
 
 func (j *MiddleBuilder) GetEmployee() Employee {

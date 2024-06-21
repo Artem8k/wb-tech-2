@@ -4,7 +4,7 @@ type EmployeeBuilder interface {
 	SetName(name string)
 	SetLastName(name string)
 	SetPosition()
-	SetSalary(salary int)
+	SetSalary()
 	GetEmployee() Employee
 }
 
